@@ -1,0 +1,589 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R1
+U 1 1 600CDD2A
+P 6200 2250
+F 0 "R1" H 6270 2296 50  0000 L CNN
+F 1 "1k" H 6270 2205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6130 2250 50  0001 C CNN
+F 3 "~" H 6200 2250 50  0001 C CNN
+F 4 "C21190" H 6200 2250 50  0001 C CNN "LCSC"
+	1    6200 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 600CF39A
+P 4450 3450
+F 0 "C1" H 4550 3500 50  0000 L CNN
+F 1 "4.7 uF" H 4550 3400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4488 3300 50  0001 C CNN
+F 3 "~" H 4450 3450 50  0001 C CNN
+F 4 "C19666 " H 4450 3450 50  0001 C CNN "LCSC"
+	1    4450 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 600CFFCD
+P 4900 3450
+F 0 "C2" H 5000 3500 50  0000 L CNN
+F 1 "0.1 uF" H 5000 3400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4938 3300 50  0001 C CNN
+F 3 "~" H 4900 3450 50  0001 C CNN
+F 4 "C307478" H 4900 3450 50  0001 C CNN "LCSC"
+	1    4900 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 600E3073
+P 4700 4100
+F 0 "#PWR02" H 4700 3850 50  0001 C CNN
+F 1 "GND" H 4705 3927 50  0000 C CNN
+F 2 "" H 4700 4100 50  0001 C CNN
+F 3 "" H 4700 4100 50  0001 C CNN
+	1    4700 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR01
+U 1 1 600E41CC
+P 4650 3000
+F 0 "#PWR01" H 4650 2850 50  0001 C CNN
+F 1 "+5V" H 4665 3173 50  0000 C CNN
+F 2 "" H 4650 3000 50  0001 C CNN
+F 3 "" H 4650 3000 50  0001 C CNN
+	1    4650 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 600EE26D
+P 6650 1450
+F 0 "C3" H 6750 1500 50  0000 L CNN
+F 1 "4.7 uF" H 6750 1400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6688 1300 50  0001 C CNN
+F 3 "~" H 6650 1450 50  0001 C CNN
+F 4 "C19666 " H 6650 1450 50  0001 C CNN "LCSC"
+	1    6650 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 600EE273
+P 7200 1450
+F 0 "C4" H 7300 1500 50  0000 L CNN
+F 1 "0.1 uF" H 7300 1400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7238 1300 50  0001 C CNN
+F 3 "~" H 7200 1450 50  0001 C CNN
+F 4 "C307478" H 7200 1450 50  0001 C CNN "LCSC"
+	1    7200 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 600EFE71
+P 6950 1900
+F 0 "#PWR03" H 6950 1650 50  0001 C CNN
+F 1 "GND" H 6955 1727 50  0000 C CNN
+F 2 "" H 6950 1900 50  0001 C CNN
+F 3 "" H 6950 1900 50  0001 C CNN
+	1    6950 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 600F8998
+P 6650 2850
+F 0 "R2" H 6720 2896 50  0000 L CNN
+F 1 "22.1" H 6720 2805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6580 2850 50  0001 C CNN
+F 3 "~" H 6650 2850 50  0001 C CNN
+F 4 "C23345" H 6650 2850 50  0001 C CNN "LCSC"
+	1    6650 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 600F95D7
+P 6650 3150
+F 0 "R3" H 6720 3196 50  0000 L CNN
+F 1 "47.5" H 6720 3105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6580 3150 50  0001 C CNN
+F 3 "~" H 6650 3150 50  0001 C CNN
+F 4 "C23182" H 6650 3150 50  0001 C CNN "LCSC"
+	1    6650 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 2400 7300 2400
+Wire Wire Line
+	4450 3000 4450 3300
+Wire Wire Line
+	4900 3300 4900 3000
+Connection ~ 4900 3000
+Wire Wire Line
+	4900 4100 4900 3600
+Wire Wire Line
+	4900 4100 4700 4100
+Wire Wire Line
+	4450 4100 4450 3600
+Connection ~ 4900 4100
+Connection ~ 4700 4100
+Wire Wire Line
+	4700 4100 4450 4100
+Wire Wire Line
+	7900 2100 7900 650 
+Wire Wire Line
+	6200 650  6200 2100
+Wire Wire Line
+	6650 1000 6650 1300
+Wire Wire Line
+	7200 1300 7200 1000
+Wire Wire Line
+	7200 1900 7200 1600
+Wire Wire Line
+	6650 1900 6650 1600
+Wire Wire Line
+	6650 1000 7200 1000
+Wire Wire Line
+	6650 1900 6950 1900
+Connection ~ 6950 1900
+Wire Wire Line
+	6950 1900 7200 1900
+Wire Wire Line
+	5750 3500 6400 3500
+Wire Wire Line
+	4900 4100 5350 4100
+Wire Wire Line
+	7300 3400 6300 3400
+Wire Wire Line
+	5450 4100 5450 3800
+Connection ~ 5450 4100
+Wire Wire Line
+	5350 3800 5350 4100
+Connection ~ 5350 4100
+Wire Wire Line
+	5350 4100 5450 4100
+Wire Wire Line
+	6650 3000 7050 3000
+Wire Wire Line
+	7050 3000 7050 3300
+Wire Wire Line
+	7050 3300 7300 3300
+Connection ~ 6650 3000
+Wire Wire Line
+	6300 3000 6300 2700
+Wire Wire Line
+	6300 2700 6650 2700
+Wire Wire Line
+	6650 2700 7150 2700
+Wire Wire Line
+	7150 2700 7150 3000
+Wire Wire Line
+	7150 3000 7300 3000
+Connection ~ 6650 2700
+Wire Wire Line
+	6650 3300 6650 4100
+Wire Wire Line
+	5450 4100 6300 4100
+$Comp
+L Device:LED D3
+U 1 1 601086E5
+P 9000 3700
+F 0 "D3" H 8993 3917 50  0000 C CNN
+F 1 "LED" H 8993 3826 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9000 3700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/2008201033_Foshan-NationStar-Optoelectronics-NCD0603O1_C84269.pdf" H 9000 3700 50  0001 C CNN
+F 4 "C84269" H 9000 3700 50  0001 C CNN "LCSC"
+	1    9000 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 6010AD8D
+P 9000 3500
+F 0 "D2" H 8993 3717 50  0000 C CNN
+F 1 "LED" H 8993 3626 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9000 3500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/2008201033_Foshan-NationStar-Optoelectronics-NCD0603O1_C84269.pdf" H 9000 3500 50  0001 C CNN
+F 4 "C84269" H 9000 3500 50  0001 C CNN "LCSC"
+	1    9000 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 3500 8500 3500
+Wire Wire Line
+	8500 3600 8500 3700
+Wire Wire Line
+	8500 3700 8850 3700
+$Comp
+L Device:LED D4
+U 1 1 601124E7
+P 9000 3900
+F 0 "D4" H 8993 4117 50  0000 C CNN
+F 1 "LED" H 8993 4026 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9000 3900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/2008201033_Foshan-NationStar-Optoelectronics-NCD0603O1_C84269.pdf" H 9000 3900 50  0001 C CNN
+F 4 "C84269" H 9000 3900 50  0001 C CNN "LCSC"
+	1    9000 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 650  8900 650 
+Connection ~ 7900 650 
+Wire Wire Line
+	7800 1000 7200 1000
+Wire Wire Line
+	7800 1000 7800 2100
+Connection ~ 7200 1000
+$Comp
+L Connector:Conn_01x04_Female J2
+U 1 1 60123169
+P 9800 2600
+F 0 "J2" H 9828 2576 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 9828 2485 50  0000 L CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 9800 2600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811151533_JST-Sales-America-SM04B-SRSS-TB-LF-SN_C160404.pdf" H 9800 2600 50  0001 C CNN
+F 4 "C160404" H 9800 2600 50  0001 C CNN "LCSC"
+	1    9800 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 4100 8850 3900
+$Comp
+L power:GND #PWR04
+U 1 1 6012CD16
+P 9350 2150
+F 0 "#PWR04" H 9350 1900 50  0001 C CNN
+F 1 "GND" H 9355 1977 50  0000 C CNN
+F 2 "" H 9350 2150 50  0001 C CNN
+F 3 "" H 9350 2150 50  0001 C CNN
+	1    9350 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 2150 9350 2000
+Wire Wire Line
+	9350 2000 9600 2000
+Wire Wire Line
+	9600 2000 9600 2500
+Wire Wire Line
+	9600 2600 8900 2600
+Wire Wire Line
+	8900 2600 8900 650 
+Connection ~ 8900 650 
+Wire Wire Line
+	8500 2800 9150 2800
+Wire Wire Line
+	9150 2800 9250 2700
+Wire Wire Line
+	9250 2700 9600 2700
+Connection ~ 6300 4100
+Wire Wire Line
+	6300 4100 6650 4100
+Wire Wire Line
+	6650 4100 7900 4100
+Connection ~ 6650 4100
+Wire Wire Line
+	7900 3900 7900 4100
+Connection ~ 7900 4100
+Wire Wire Line
+	7900 4100 8000 4100
+Wire Wire Line
+	8000 3900 8000 4100
+Connection ~ 8000 4100
+Wire Wire Line
+	8000 4100 8850 4100
+Wire Wire Line
+	6400 3700 6400 3500
+Connection ~ 6400 3500
+Wire Wire Line
+	6400 3500 7300 3500
+Wire Wire Line
+	6300 3400 6300 3700
+Connection ~ 6300 3400
+Wire Wire Line
+	6300 3400 5750 3400
+Wire Wire Line
+	6200 3700 6200 3200
+Connection ~ 6200 3000
+Wire Wire Line
+	6200 3000 6300 3000
+Wire Wire Line
+	9150 2700 9250 2800
+Wire Wire Line
+	8500 2700 9150 2700
+Wire Wire Line
+	9250 2800 9600 2800
+Text Notes 9200 3950 0    50   ~ 0
+power present
+Text Notes 9100 3700 0    50   ~ 0
+tx activity
+Text Notes 9100 3350 0    50   ~ 0
+rx activity
+$Comp
+L Interface_USB:CP2102N-A01-GQFN24 U1
+U 1 1 600CC9A4
+P 7900 3000
+F 0 "U1" H 7900 4081 50  0000 C CNN
+F 1 "CP2102N-A01-GQFN24" H 7900 3990 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 8350 2200 50  0001 L CNN
+F 3 "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" H 7950 1950 50  0001 C CNN
+	1    7900 3000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7300 2800
+NoConn ~ 7300 2700
+NoConn ~ 8500 3300
+NoConn ~ 8500 3400
+NoConn ~ 8500 3000
+NoConn ~ 8500 2600
+NoConn ~ 8500 2500
+NoConn ~ 8500 2400
+NoConn ~ 8500 2900
+NoConn ~ 8500 3100
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 601EF2F7
+P 6200 650
+F 0 "#FLG0101" H 6200 725 50  0001 C CNN
+F 1 "PWR_FLAG" H 6200 823 50  0000 C CNN
+F 2 "" H 6200 650 50  0001 C CNN
+F 3 "~" H 6200 650 50  0001 C CNN
+	1    6200 650 
+	1    0    0    -1  
+$EndComp
+Connection ~ 6200 650 
+Wire Wire Line
+	6200 650  7200 650 
+Wire Wire Line
+	7200 650  7200 1000
+Connection ~ 7200 650 
+Wire Wire Line
+	7200 650  7900 650 
+Wire Notes Line
+	7850 2450 7700 2450
+Wire Notes Line
+	7700 2450 7700 1600
+Wire Notes Line
+	7700 1600 6500 1600
+Wire Notes Line
+	6500 1600 6500 1300
+Wire Notes Line
+	6500 1300 7850 1300
+Wire Notes Line
+	7850 1300 7850 2450
+Wire Notes Line
+	5750 3050 4300 3050
+Wire Notes Line
+	4300 3050 4300 3650
+Wire Notes Line
+	4300 3650 5450 3650
+Wire Notes Line
+	5450 3650 5450 3250
+Wire Notes Line
+	5750 3250 5750 3050
+$Comp
+L Switch:SW_Push_Open SW1
+U 1 1 602099BB
+P 5950 3200
+F 0 "SW1" H 5950 3415 50  0000 C CNN
+F 1 "SW_Push_Open" H 5950 3324 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3U-1000P" H 5950 3400 50  0001 C CNN
+F 3 "~" H 5950 3400 50  0001 C CNN
+F 4 "C412368 " H 5950 3200 50  0001 C CNN "LCSC"
+	1    5950 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 3000 4650 3000
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 6020F6D3
+P 5050 3000
+F 0 "#FLG0102" H 5050 3075 50  0001 C CNN
+F 1 "PWR_FLAG" H 5050 3173 50  0000 C CNN
+F 2 "" H 5050 3000 50  0001 C CNN
+F 3 "~" H 5050 3000 50  0001 C CNN
+	1    5050 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B J1
+U 1 1 600F0CC5
+P 5450 3400
+F 0 "J1" H 5507 3867 50  0000 C CNN
+F 1 "USB_B" H 5507 3776 50  0000 C CNN
+F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 5600 3350 50  0001 C CNN
+F 3 " ~" H 5600 3350 50  0001 C CNN
+F 4 "C86462" H 5450 3400 50  0001 C CNN "LCSC"
+	1    5450 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3000 5050 3000
+Wire Wire Line
+	6150 3200 6200 3200
+Connection ~ 6200 3200
+Wire Wire Line
+	6200 3200 6200 3000
+Wire Notes Line
+	5450 3250 5750 3250
+Connection ~ 5050 3000
+Wire Wire Line
+	5050 3000 6200 3000
+Connection ~ 4650 3000
+Wire Wire Line
+	4650 3000 4900 3000
+Wire Wire Line
+	9150 3900 9800 3900
+Wire Wire Line
+	9150 3700 9800 3700
+Wire Wire Line
+	9150 3500 9800 3500
+Wire Wire Line
+	8900 650  10500 650 
+$Comp
+L RN:EXB-V8V331JV RN1
+U 1 1 6051882E
+P 9800 3500
+F 0 "RN1" H 10050 3738 60  0000 C CNN
+F 1 "EXB-V8V331JV" H 10050 3632 60  0000 C CNN
+F 2 "RN:EXB-V8V331JV" H 10050 3165 60  0001 C CNN
+F 3 "" H 9800 3500 60  0000 C CNN
+	1    9800 3500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10300 4100
+NoConn ~ 9800 4100
+Wire Wire Line
+	10500 3900 10300 3900
+Wire Wire Line
+	10500 650  10500 3500
+Wire Wire Line
+	10500 3500 10300 3500
+Connection ~ 10500 3500
+Wire Wire Line
+	10500 3500 10500 3700
+Wire Wire Line
+	10300 3700 10500 3700
+Connection ~ 10500 3700
+Wire Wire Line
+	10500 3700 10500 3900
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 604FFCDA
+P 2600 1700
+F 0 "H2" H 2700 1746 50  0000 L CNN
+F 1 "MountingHole" H 2700 1655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2600 1700 50  0001 C CNN
+F 3 "~" H 2600 1700 50  0001 C CNN
+	1    2600 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 6050096B
+P 2600 1900
+F 0 "H3" H 2700 1946 50  0000 L CNN
+F 1 "MountingHole" H 2700 1855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2600 1900 50  0001 C CNN
+F 3 "~" H 2600 1900 50  0001 C CNN
+	1    2600 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 60501B7F
+P 2600 2100
+F 0 "H4" H 2700 2146 50  0000 L CNN
+F 1 "MountingHole" H 2700 2055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2600 2100 50  0001 C CNN
+F 3 "~" H 2600 2100 50  0001 C CNN
+	1    2600 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 605027CE
+P 2600 1500
+F 0 "H1" H 2700 1546 50  0000 L CNN
+F 1 "MountingHole" H 2700 1455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2600 1500 50  0001 C CNN
+F 3 "~" H 2600 1500 50  0001 C CNN
+	1    2600 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 6053B150
+P 3600 1700
+F 0 "H6" H 3700 1746 50  0000 L CNN
+F 1 "MountingHole" H 3700 1655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3600 1700 50  0001 C CNN
+F 3 "~" H 3600 1700 50  0001 C CNN
+	1    3600 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 6053B156
+P 3600 1900
+F 0 "H7" H 3700 1946 50  0000 L CNN
+F 1 "MountingHole" H 3700 1855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3600 1900 50  0001 C CNN
+F 3 "~" H 3600 1900 50  0001 C CNN
+	1    3600 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 6053B15C
+P 3600 2100
+F 0 "H8" H 3700 2146 50  0000 L CNN
+F 1 "MountingHole" H 3700 2055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3600 2100 50  0001 C CNN
+F 3 "~" H 3600 2100 50  0001 C CNN
+	1    3600 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 6053B162
+P 3600 1400
+F 0 "H5" H 3700 1446 50  0000 L CNN
+F 1 "MountingHole" H 3700 1355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3600 1400 50  0001 C CNN
+F 3 "~" H 3600 1400 50  0001 C CNN
+	1    3600 1400
+	1    0    0    1   
+$EndComp
+$Comp
+L Power_Protection:SP0503BAHT D1
+U 1 1 601432F1
+P 6300 3900
+F 0 "D1" H 6505 3946 50  0000 L CNN
+F 1 "SP0503BAHT" H 6505 3855 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-143" H 6525 3850 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 6425 4025 50  0001 C CNN
+F 4 "C7074" H 6300 3900 50  0001 C CNN "LCSC"
+	1    6300 3900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
